@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/irinelbogdan92/terraform-provider-cockroach/internal/provider"
+	"github.com/viorelvintan/terraform-provider-cockroach/internal/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
 
@@ -38,7 +38,7 @@ func main() {
 
 	if debugMode {
 		// TODO: update this string with the full name of your provider as used in your configs
-		err := plugin.Debug(context.Background(), "registry.terraform.io/irinelbogdan92/cockroach", opts)
+		err := plugin.Debug(context.Background(), "registry.terraform.io/viorelvintan/cockroach", opts)
 		if err != nil {
 			log.Fatal(err.Error())
 		}

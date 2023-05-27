@@ -1,4 +1,4 @@
-module github.com/irinelbogdan92/terraform-provider-cockroach
+module github.com/viorelvintan/terraform-provider-cockroach
 
 go 1.17
 

@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     cockroach = {
-      source = "irinelbogdan92/cockroach"
+      source = "viorelvintan/cockroach"
     }
   }
 }

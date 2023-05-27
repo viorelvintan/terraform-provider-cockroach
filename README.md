@@ -9,7 +9,7 @@ This is very usefull if you deploy cockroachdb in your own kubernetes infrastruc
 ## Documentation, questions and discussions
 
 Official documentation on how to use this provider can be found on the
-[Terraform Registry](https://registry.terraform.io/providers/irinelbogdan92/cockroach/latest/docs).
+[Terraform Registry](https://registry.terraform.io/providers/viorelvintan/cockroach/latest/docs).
 
 The remainder of this document will focus on the development aspects of the provider.
 
@@ -67,7 +67,7 @@ the following `dev_overrides`:
 ```hcl
 provider_installation {
   dev_overrides {
-    "irinelbogdan92/cockroach" = "${GOBIN}" //< replace `${GOBIN}` with the actual path on your system
+    "viorelvintan/cockroach" = "${GOBIN}" //< replace `${GOBIN}` with the actual path on your system
   }
 
   direct {}
